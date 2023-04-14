@@ -1,3 +1,5 @@
+/* Багато де не зробили червоній бекграунд, а у завданні 3 третього блоку червоний замість синього */
+
 :root {
     background: white;
 }
@@ -8,19 +10,19 @@ div.lesson-four-task-one .btn:hover {
     color: red;
     background: yellow;
 }
-/* Завдання 2 */
-div.lesson-four-task-two a.link:hover ~ h1.title {
-    background: green;
+/* Завдання 4 */
+#sidebar a:link {
+    background-color: rgb(255, 0, 0);
+    color: red !important;
 }
 /* Завдання 3 */
-a[href="https://codepen.io"]:visited {
-    background-color: yellow;
+#lesson-four-task-three > a:visited {
+    background-color: yellow !important;
     color: yellow;
 }
-/* Завдання 4 */
-a[href="https://codepen.io/"]:link {
-    background-color: red;
-    color: red;
+/* Завдання 2 */
+div.lesson-four-task-two a:hover ~ h1.title {
+    background: green;
 }
 /* Завдання 5 */
 div.lesson-four-task-five .btn:active {
@@ -84,9 +86,6 @@ div.lesson-four-task-fifteen textarea:optional {
 div.lesson-four-task-sixteen input:out-of-range {
     background: red;
 }
-div.lesson-four-task-sixteen input {
-    background-color: grey;
-}
 /* Завдання 17 */
 div.lesson-four-task-seventeen input:in-range {
     background: red;
@@ -96,7 +95,7 @@ div.lesson-four-task-eighteen input:placeholder-shown {
     background-color: red;
 }
 /* Завдання 19 */
-div.lesson-four-task-nineteen .btn-group:focus-within {
+div.lesson-four-task-nineteen .btn-group button:focus-within  {
     background-color: yellow;
     color: white;
 }
