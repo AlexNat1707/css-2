@@ -104,6 +104,6 @@ div.lesson-four-task-twenty input[type='text']:invalid, input[type='email']:inva
     background-color: red;
 }
 /* Завдання 21 */
-div.lesson-four-task-twenty-one input[type="radio"]:default + label {
+div.lesson-four-task-twenty-one input[type="radio"]:checked + label {
     color: red;
 }
